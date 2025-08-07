@@ -1,0 +1,25 @@
+#drag {
+  width: 100px;
+  height: 100px;
+  background: red;
+  margin-bottom: 20px;
+  border-radius: 100%;
+  display: grid;
+  place-items: center;
+}
+
+#drop {
+  width: 200px;
+  height: 200px;
+  background: rgb(245, 245, 245);
+  border: 2px solid black;
+  display: grid;
+  place-items: center;
+}
+.container {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  position: absolute;
+  top: 200px;
+}
